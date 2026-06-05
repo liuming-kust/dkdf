@@ -1,0 +1,31 @@
+========================================
+Rotational Inertia Measurement Experiment
+========================================
+
+[Experiment Purpose]
+To measure the moment of inertia of a rigid body using a rotational inertia apparatus and verify the rotational law.
+
+[Theory]
+According to the rotational law, the angular acceleration α of a rigid body rotating around a fixed axis is proportional to the net torque M and inversely proportional to the moment of inertia I:
+M = I·α
+
+In this experiment, weights are suspended from the tower wheel via a string, producing a torque M = mgr.
+
+[Equipment]
+- Rotational inertia instrument
+- Digital millisecond timer
+- Weights (20g, 40g, 60g)
+- Vernier caliper
+- Stopwatch
+
+[Procedure]
+1. Level the rotational inertia apparatus.
+2. Select a weight and record its mass m.
+3. Measure the radius r of the tower wheel.
+4. Release the weight and measure the angular acceleration α.
+5. Repeat measurements with different masses.
+6. Calculate the moment of inertia I and compare with theoretical values.
+
+[Data Processing]
+I = mgr/α
+Relative error = |I_measured - I_theoretical| / I_theoretical × 100%
