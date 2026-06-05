@@ -2,7 +2,6 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Paper](https://img.shields.io/badge/paper-ESWA-red.svg)](https://www.sciencedirect.com/journal/expert-systems-with-applications)
 
 ## 简介
 
@@ -28,6 +27,5 @@ DKDF (Dynamic Knowledge Distillation Framework) 是一个面向教育领域的�
 @article{dkdf2025,
   title={DKDF：面向教育领域的动态知识精炼框架——构建-蒸馏-评估三位一体的知识自动化精炼范式},
   author={lm},
-  journal={Expert Systems with Applications},
   year={2025}
 }
