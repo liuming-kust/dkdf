@@ -1,0 +1,33 @@
+# DKRF - Dynamic Knowledge Refinement Framework
+# 面向教育文档的动态知识精炼框架
+
+# 核心依赖
+torch>=2.0.0
+numpy>=1.24.0
+
+# LLM与文本处理
+openai>=1.0.0
+tiktoken>=0.5.0
+sentence-transformers>=2.2.0
+
+# 知识图谱与图计算
+networkx>=3.0
+rdflib>=7.0
+
+# 评估与指标
+scikit-learn>=1.3.0
+rouge-score>=0.1.0
+
+# 数据处理与工具
+pandas>=2.0.0
+tqdm>=4.65.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# 向量检索
+faiss-cpu>=1.7.0
+
+# 开发与测试
+pytest>=7.4.0
+black>=23.0.0
+mypy>=1.5.0
