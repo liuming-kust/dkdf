@@ -29,3 +29,9 @@ If you use this framework in your research, please cite:
   author={Liu, Ming and Liu, ChunYin and Guo, Ping},
   year={2025}
 }
+
+## Reproducibility & Result Notes
+
+- The numerical results reported in the paper (e.g., Precision 4.2/5.0, Coverage 91.5%, CCA Overall 0.862) are based on **full internal datasets** that cannot be released.
+- Our provided **synthetic data** and **code** reproduce the **full pipeline**, but exact numbers will differ when applied to other document sets.
+- We observe **stable trends** across cross‑validation and two distinct datasets, confirming the framework is not over‑fitted to a single collection.
