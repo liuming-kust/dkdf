@@ -17,7 +17,13 @@ This framework accompanies the paper:
 **DKDF: A Tripartite Closed-Loop Framework for Dynamic Knowledge Distillation from Educational Documents**  
 (Applied Intelligence, APIN-D-26-07834)
 
-> *Terminological note*: In this context, "knowledge distillation" refers to extracting, purifying, and organizing domain knowledge from unstructured documents into a structured knowledge base. This is distinct from model distillation, although both share the idea of "extracting core information" but differ fundamentally in their objects and application scenarios.
+*Terminological note*: In this context, "knowledge distillation" refers to extracting, purifying, and organizing domain knowledge from unstructured documents into a structured knowledge base. This is distinct from model distillation, although both share the idea of "extracting core information" but differ fundamentally in their objects and application scenarios.
+
+## Reproducibility & Result Notes
+
+- The numerical results reported in the paper (e.g., Precision 4.2/5.0, Coverage 91.5%, CCA Overall 0.862) are based on **full internal datasets** that cannot be released due to institutional confidentiality.
+- Our provided **synthetic data** and **code** reproduce the **complete pipeline**; exact numbers will differ when applied to other document sets.
+- We observe **stable trends** across 5‑fold cross‑validation and two distinct datasets, confirming the framework is not over‑fitted to a single collection.
 
 ## Citation
 
@@ -29,9 +35,3 @@ If you use this framework in your research, please cite:
   author={Liu, Ming and Liu, ChunYin and Guo, Ping},
   year={2025}
 }
-
-## Reproducibility & Result Notes
-
-- The numerical results reported in the paper (e.g., Precision 4.2/5.0, Coverage 91.5%, CCA Overall 0.862) are based on **full internal datasets** that cannot be released.
-- Our provided **synthetic data** and **code** reproduce the **full pipeline**, but exact numbers will differ when applied to other document sets.
-- We observe **stable trends** across cross‑validation and two distinct datasets, confirming the framework is not over‑fitted to a single collection.
